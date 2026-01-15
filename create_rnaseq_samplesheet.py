@@ -39,10 +39,6 @@ def main():
 
     args = parser.parse_args()
 
-    # Generate CSV content
-    print(f"# Sample sheet for project {args.ProjectID}")
-    print(f"Strandedness,{args.Strandedness}")
-
     # Build full path to project data
     data_path = os.path.join(args.data, args.ProjectID)
 
